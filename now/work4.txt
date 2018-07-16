@@ -1,0 +1,29 @@
+list=["Alice Addison", "Bob Benetton"]
+Enum.map(list,fn ret->[ret]end)
+
+list2=[%{name: “Alice Addison”, age: 14}, %{name: “Bob Benetton”, age: 21}, %{name: “Eve Elliot”, age: 18}]
+Enum.map(list2,fn %{name: name,age: age}->[name,age,"years old"] end)
+
+list3=[“An example sentence”, “Another sentence”, “Third sentence”]
+Enum.filter(list3,fn check->!String.contains?(check,"a")end)
+
+
+matrix=[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for double<-matrix,do:
+for dab<-double,do: dab * dab
+[[1,4,9],[16,25,36],[1,@,Q]]
+
+
+
+
+Enum.filter(matrix,fn n->
+if(n%2==0)
+eve
+n
+else
+
+odd
+ 
+end
+end
+)
